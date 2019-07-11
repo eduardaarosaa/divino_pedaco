@@ -1,0 +1,17 @@
+{
+  "name": "FilmRoll",
+  "version": "0.1.17",
+  "main": "js/jquery.film_roll.min.js",
+  "ignore": [
+    "coffee",
+    ".gitignore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/straydogstudio/film_roll"
+  },
+  "dependencies": {
+    "jquery": ">=1.4",
+    "jquery-touchswipe": ">=1.6.6"
+  }
+}
