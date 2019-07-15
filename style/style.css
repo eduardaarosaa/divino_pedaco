@@ -1,4 +1,6 @@
-
+body{
+	overflow-x:hidden;
+}
 .menu{
 	position:relative;
 }
@@ -129,4 +131,8 @@ footer{
 	content: "";
 	display: table;
 	clear: both;
+  }
+  .logo {
+	animation-duration: 3s;
+	animation-delay: 2s;
   }
