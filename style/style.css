@@ -113,26 +113,33 @@ footer{
 	float: left;
 	width: 24.99999%;
   }
+
   
-  @media only screen and (max-width: 700px) {
-	.responsive {
-	  width: 49.99999%;
-	  margin: 6px 0;
-	}
-  }
-  
-  @media only screen and (max-width: 500px) {
-	.responsive {
-	  width: 100%;
-	}
-  }
-  
-  .clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
+
   .logo {
 	animation-duration: 3s;
 	animation-delay: 2s;
+  }
+  @media only screen and (max-width: 800px) {
+	body {
+	  background-color: lightblue!important;
+	  
+	}
+	.barra{
+	background-color: transparent;
+	
+	}
+	.menu ul li{
+		display: inline!important;
+
+	}
+	nav ul li a{
+		display: inline!important;
+	}
+	#layer1{
+		display: none!important;
+	}
+	a.nav-link{
+		display: inline!important;
+	}
   }
