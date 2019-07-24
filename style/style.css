@@ -13,6 +13,8 @@ body{
 	font-family:Arial;
 	font-weight:bold;
 	font-size:12pt;	
+	
+	
 }
 .menu ul li{
 	color:#fff;
@@ -122,24 +124,24 @@ footer{
   }
   @media only screen and (max-width: 800px) {
 	body {
-	  background-color: lightblue!important;
+	 /* background-color: lightblue!important;*/
 	  
 	}
 	.barra{
 	background-color: transparent;
+	}
 	
-	}
-	.menu ul li{
-		display: inline!important;
-
-	}
-	nav ul li a{
-		display: inline!important;
-	}
 	#layer1{
 		display: none!important;
 	}
 	a.nav-link{
 		display: inline!important;
+	}
+	.nav-item{
+		display: inline!important;
+	}
+	.banner{
+		width: 100%;
+		height: 280px;
 	}
   }
