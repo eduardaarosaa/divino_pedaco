@@ -50,7 +50,7 @@ body{
     padding: 3px 10px;
     position: initial;
 }
-h1{
+h1,h4{
 	font-family: 'Great Vibes', cursive;
 	text-align: center;
 	color:#6c6f70;
